@@ -24,7 +24,7 @@ type Config struct {
 var config = &Config{
 	Port:             12345,
 	IgnoreOfflineDay: false,
-	OfflineDays:      30, // max 180 > 180 will cause invalid
+	OfflineDays:      180, // max 180 > 180 will cause invalid
 	LogLevel:         Info,
 	LogFile:          false,
 	LogPath:          "./logs",
